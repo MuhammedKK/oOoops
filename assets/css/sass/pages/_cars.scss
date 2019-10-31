@@ -1,0 +1,48 @@
+/* Start Speacial Ads */
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    @media #{$mobile-screen} {
+        display: block;
+    }
+    .select-box {
+        flex: 1;
+        position: relative;
+        margin:10px;
+        border-radius:30px;
+        overflow: hidden;
+        @media #{$mobile-screen} {
+            margin-bottom:20px; 
+        }
+        i {
+            position: absolute;
+            top: 15px;
+            left: 17px;
+            color:$orange_color;
+        }
+        select {
+            -webkit-appearance: none;
+            padding:0 10px;
+        }
+    }
+}
+/* Pagination */
+.pages {
+    .pagination {
+        padding:0;
+        li {
+            a {
+                margin: 0 3px;
+                padding: 10px 15px;
+                border-radius: 9px;
+                background-color: $red_color;
+                color:#fff;
+                border:1px solid $red_color;
+                border-radius:5px;
+            }
+        }
+    }
+}
+
+/* End Speacial Ads */
